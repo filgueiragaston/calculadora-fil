@@ -1,18 +1,11 @@
-let nombre = "Jon";
-        let apellido = 'MirCha';
-        let saludo = new String("Hola Mundo");
-        let lorem = "       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, et dolorum. Adipisci sequi, voluptates accusamus earum magnam non pariatur odit consequuntur dicta modi. Quam soluta aliquid nam ea quod dolore.      ";
-        console.log(nombre, apellido, saludo);
-        console.log(
-          nombre.length,
-          apellido.length,
-          saludo.length,
-          nombre.toUpperCase(),
-          apellido.toLowerCase(),
-          lorem.includes("amet"),
-          lorem.includes("jon"),
-          lorem,
-          lorem.trim(),
-          lorem.split(" "),
-          lorem.split(",")
-        );
+// Array con valores number. 
+let array = [1, 2, 3];
+console.log(array);
+
+let arrayVacio = [];
+console.log("Array vacio: ");
+console.log(arrayVacio);
+
+arrayVacio = [25, 36, 99];
+console.log("Agrego elementos: ");
+console.log(arrayVacio);
